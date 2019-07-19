@@ -24,4 +24,4 @@ Este software é gratuito e não está associado ao RD Station Marketing. RD Sta
 <h1> Como estruturar o exemplo? </h1>
 <br>
 1. Crie uma tabela contendo a estrurua acima;<br>
-2. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
+2. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
