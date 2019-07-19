@@ -1,5 +1,5 @@
 <h1> Integração com o RD Station Marketing via API 2.0 em PHP </h1>
-<b>Objetivo?</b> Demonstrar o envio de uma conversão para o RD Station Marketing em PHP adotando a estrutura de autenticação da API 2.0
+<b>Objetivo?</b> Demonstrar o envio de uma conversão para o RD Station Marketing em PHP adotando a estrutura de autenticação da API 2.0 <br>
 <br>
 <blockquote>
 Este software tem o objetivo de auxiliar o desenvolvedor a criar uma integração simples com o RD Station Marketing através da API pública 2.0.
@@ -23,5 +23,5 @@ Este software é gratuito e não está associado ao RD Station Marketing. RD Sta
 É necessário possuir um banco de dados simples para gravar e gerenciar os tokens.
 <h1> Como estruturar o exemplo? </h1>
 <br>
-1. Crie uma tabela contendo a estrurua acima;
+1. Crie uma tabela contendo a estrurua acima;<br>
 2. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração;
