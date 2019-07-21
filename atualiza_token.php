@@ -65,13 +65,6 @@ $novo_token = $obj->access_token;
 $expira =  $obj->expires_in;
 
 
-//imprime o conteúdo do objeto 
-echo "access_token:<br> $obj->access_token<br>";
-echo "<br>";
-echo "Ele vai expirar em: $obj->expires_in"; 
-echo " segundos";
-echo "<br><br>";
-echo "refresh_token: $obj->refresh_token<br>"; 
 
 $teste = $obj->refresh_token;
 
@@ -81,7 +74,7 @@ $teste = $obj->refresh_token;
 
 
 if ($conn->query($sql) === TRUE) {
-echo "<br> o token atual foi atualizado para este novo ;)";
+echo "";
 } else {
 echo "Error: " . $sql . "<br>" . $conn->error;
 }$conn->close(); 
