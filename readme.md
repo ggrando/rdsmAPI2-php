@@ -31,6 +31,7 @@ TABELA "app_credentials" responsável por guardar as credenciais do aplicativo.
 É necessário possuir um banco de dados simples para gravar e gerenciar os tokens.
 <h1> Como estruturar o exemplo? </h1>
 <br>
-1. Crie uma tabela contendo a estrurua acima;<br> <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/database.sql"> SQL Example</a>
+
+1. Crie uma tabela contendo a estrurua acima;<a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/database.sql"> SQL Example </a><br> 
 
 2. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
