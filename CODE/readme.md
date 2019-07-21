@@ -1,4 +1,4 @@
-Este processo de geração das crendenciais irá autorizar que o seu aplicativo gerencie os tokens dentro do RDSM.
+Este processo de geração das crendenciais vai gerar o seu aplicativo dentro do RD Station Marketing e fazer a primeira carga nas tabelas.
 
 01. Crie um aplicativo na loja da RD <a href="https://appstore.rdstation.com/publisher"> Clicando aqui </a><br> 
 02. Preencha as credenciais do aplicativo de acordo com os valores do seu projeto: <br>
@@ -7,5 +7,5 @@ Este processo de geração das crendenciais irá autorizar que o seu aplicativo 
 
 <h3> Pronto, banco alimentado com os dados do token </h3>
 
-Esse processo precisa ser executado uma única vez!
+Esse processo precisa ser executado uma única vez! Este diretório, por questões de segurança deve ser destruído após a carga inicial.
 
