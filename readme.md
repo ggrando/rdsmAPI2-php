@@ -34,4 +34,16 @@ TABELA "app_credentials" responsável por guardar as credenciais do aplicativo.
 
 1. Crie uma tabela contendo a estrurua acima;<a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/database.sql"> SQL Example </a><br> 
 2. Aplique as credenciais no arquivo conexão (<a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/conect.php">conect.php</a>) <br>
-3. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
+3. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a> <br>
+4. A raiz (CODE) pode ser destruída do seu diretório, pois, ela é a responsável pela atualização inicial das tabelas. <br>
+5. O arquivo <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/form_exemplo.html">form_exemplo.html</a> te mostra um formulaŕio de exemplo que chama o arquivo <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/post.php">post.php, </a>responsável por fazer o envio da conversão. Com essa informação gerencie os disparo de acordo com o seu formulário. <br>
+
+É importante que os dados dos arquivos que processa as informações sejam atualizados de acordo com seu formulário. <br>
+
+<h3> Como atualizar? </h3>
+- Atualize os dados que são passados pelo seu formulário no arquivo que recebe o post em: <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/post.php">post.php</a> <br>
+- Atualize o arquivo que faz o disparo para o RD Station em <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/conversion.php">conversion.php</a> <br>
+
+Você precisa passar as variáveis na tag global, no exemplo padrão somente os dados do email e nome. Você precisa também incluir as variáveis nova no Payload que é disparado.
+
+
