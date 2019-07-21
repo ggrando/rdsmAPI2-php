@@ -33,5 +33,5 @@ TABELA "app_credentials" responsável por guardar as credenciais do aplicativo.
 <br>
 
 1. Crie uma tabela contendo a estrurua acima;<a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/database.sql"> SQL Example </a><br> 
-
-2. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
+2. Aplique as credenciais no arquivo conexão (conect.php) <br>
+3. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
