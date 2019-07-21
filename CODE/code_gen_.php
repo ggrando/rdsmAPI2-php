@@ -81,7 +81,7 @@ $refresh = $obj->refresh_token;
 
 
 if ($conn->query($sql) === TRUE) {
-echo "<br> o token atual foi atualizado para este novo <br>";
+echo "Tabela token_rdsm atualizada";
 } else {
 echo "Error: " . $sql . "<br>" . $conn->error;
 }
@@ -91,7 +91,7 @@ $sql = "UPDATE app_credentials SET refresh_token = '$refresh'";
 
 
 if ($conn->query($sql) === TRUE) {
-echo "Credentials Atualizada";
+echo "<br>Tabela token_rdsm atualizad<br>Essa janela já pode ser fechada....";
 } else {
 echo "Error: " . $sql . "<br>" . $conn->error;
 }$conn->close(); 
