@@ -44,6 +44,6 @@ TABELA "app_credentials" responsável por guardar as credenciais do aplicativo.
 - Atualize os dados que são passados pelo seu formulário no arquivo que recebe o post em: <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/post.php">post.php</a> <br>
 - Atualize o arquivo que faz o disparo para o RD Station em <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/conversion.php">conversion.php</a> <br>
 
-Você precisa passar as variáveis na tag global, no exemplo padrão somente os dados do email e nome. Você precisa também incluir as variáveis nova no Payload que é disparado.
+Você precisa passar as variáveis na tag global, no exemplo padrão somente os dados do email e nome são enviados. Você precisa também incluir as variáveis nova no Payload que é disparado.
 
 
