@@ -15,13 +15,22 @@ Este software é gratuito e não está associado ao RD Station Marketing. RD Sta
 
 <h3>Estrutura de banco de dados necessária</h3>
 
+TABELA "token_rdsm" responsável por guardar o token atual
+
 | id     	| refresh     	| token       	| update_date 	|
 |--------	|-------------	|-------------	|-------------	|
 | int PK 	| Varchar 255 	| Varchar 900 	| Varchar 255 	| 
+
+TABELA "app_credentials" responsável por guardar as credenciais do aplicativo.
+
+| id     	| client_id    	| client_secret	| redirect_url	| refresh_token |
+|--------	|-------------	|-------------	|-------------	|-------------	|
+| int PK 	| Varchar 255 	| Varchar 900 	| Varchar 255 	| Varchar 255 	|  
 
 <br>
 É necessário possuir um banco de dados simples para gravar e gerenciar os tokens.
 <h1> Como estruturar o exemplo? </h1>
 <br>
-1. Crie uma tabela contendo a estrurua acima;<br>
+1. Crie uma tabela contendo a estrurua acima;<br> <a href="https://github.com/ggrando/rdsmAPI2-php/blob/master/database.sql"> SQL Example</a>
+
 2. Faça o processo de captura do code, ele será necessário para gerenciar as informaçes da integração; <a href="https://github.com/ggrando/rdsmAPI2-php/tree/master/CODE">Clique aqui </a>
